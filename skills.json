@@ -1,0 +1,26 @@
+{
+  "generated": "2026-04-05T05:41:50.174Z",
+  "source": "BitflowFinance/bff-skills",
+  "count": 1,
+  "skills": [
+    {
+      "name": "iron-griffin-bitflow-swap",
+      "description": "Swap STX for sBTC and other assets on Stacks via Bitflow v3.",
+      "metadata": {
+        "author": "mrnetwork0001",
+        "author-agent": "Iron Griffin",
+        "user-invocable": "false",
+        "arguments": "doctor | status | run",
+        "entry": "iron-griffin-bitflow-swap/iron-griffin-bitflow-swap.ts",
+        "requires": "wallet, signing, settings",
+        "tags": "defi, write, mainnet-only"
+      },
+      "directory": "iron-griffin-bitflow-swap",
+      "files": [
+        "AGENT.md",
+        "iron-griffin-bitflow-swap.ts",
+        "SKILL.md"
+      ]
+    }
+  ]
+}
